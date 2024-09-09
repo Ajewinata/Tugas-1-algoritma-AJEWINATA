@@ -1,0 +1,9 @@
+cek_ganjil_genap(angka):
+    if angka % 2 == 0:
+        return f"{angka} adalah bilangan genap"
+    else:
+        return f"{angka} adalah bilangan ganjil"
+
+# Contoh penggunaan
+angka = int(input("Masukkan bilangan: "))
+print(cek_ganjil_genap(angka))
