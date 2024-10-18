@@ -1,7 +1,6 @@
-input ;
-1.jari jari dalam cm
-2.luas dalam cm2
-3.phi = 3,14
-proses;
-4.hitung luas= phixjari jari x jari jari
-5.tampilkan luas
+import math
+
+jari_jari = float(input("Masukkan jari-jari lingkaran: "))
+luas = math.pi * jari_jari ** 2
+
+print(f"Luas lingkaran dengan jari-jari {jari_jari} adalah {luas:.2f}")
