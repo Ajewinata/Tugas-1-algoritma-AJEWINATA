@@ -1,11 +1,6 @@
-from datetime import datetime
-
-tahun_masuk = int(input("Masukkan tahun masuk mahasiswa: "))
-tahun_sekarang = datetime.now().year
-lama_kuliah = tahun_sekarang - tahun_masuk
-semester = (lama_kuliah * 2) + 1
-
-if lama_kuliah >= 0:
-    print(f"Mahasiswa yang masuk tahun {tahun_masuk} saat ini berada di semester {semester}.")
-else:
-    print("Tahun masuk tidak valid.")
+Tahun masuk mahasiswa (misal 2019)
+Tahun saat ini (misalnya 2024)
+semester saat ini(misalnya semester saat ini,semester 1 untuk ganjildan semester 2 untuk genap)
+hitung selisih tahun antara thaun ini dengan tahun maasuk selesih tahun=tahun sat inji-tahun masuk
+hitung semester total yang telah di lalui semester total=selisih tahunx2+semester saat ini
+sememster total adalah semester yang sedang di jalani mahasiswa
