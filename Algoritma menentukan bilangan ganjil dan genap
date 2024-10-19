@@ -1,5 +1,4 @@
-bilangan =  int(input("masukkan bilangan"))
-if bilangan % 2 == 0:
-        print ("adalah bilangan Genap.")
-else:
-        print ("adalah bilangan Ganjil.")
+Masukan angka
+Jika angka, dibagi menjadi 2 sisanya adalah o maka augka, adalah genap
+Jika tidak maka ganjil
+Carilah angka genap atau ganjil
