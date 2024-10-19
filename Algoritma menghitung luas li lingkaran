@@ -1,6 +1,4 @@
-import math
-
-jari_jari = float(input("Masukkan jari-jari lingkaran: "))
-luas = math.pi * jari_jari ** 2
-
-print(f"Luas lingkaran dengan jari-jari {jari_jari} adalah {luas:.2f}")
+Gunakan jari-jari lingkaran
+gunakan rumus untuk menghitung luas lingkaran: A = phi * r*r
+dimna phi adalah konstan (3,14)dan r adalah jari-jarilingkaran 
+tanpilkan hasil perhitungan luas lingkaran
